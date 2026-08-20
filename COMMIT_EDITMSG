@@ -1,0 +1,10 @@
+Document the new HTMX mini-app UI and the datetime.now() extraction bugs
+
+Covers: the auth-architecture decision for /app/* (require_login
+dependency mirroring the existing /api/* middleware, not a second auth
+system), the /search-ui auth gap found and fixed before it could become
+a real information-disclosure issue in the new detail page, what the new
+UI does and doesn't cover yet, and the datetime.now() AttributeError
+found while testing delete/edit (same root cause as the earlier
+__file__-path bugs: a local import shadow in main.py's _add_one_year
+got promoted to module scope during the mechanical file-split).

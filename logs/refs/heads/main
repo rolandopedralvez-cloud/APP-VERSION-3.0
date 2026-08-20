@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 408ff94175c7b70411b7a665d3f8eff62d7c5505 Claude <noreply@anthropic.com> 1787234479 +0000	clone: from https://github.com/rolandopedralvez-cloud/NTC-PROCESSING-APP.git
+408ff94175c7b70411b7a665d3f8eff62d7c5505 1f1eb33c51ba3acb89a6dad7a59f62e85daf692e Claude <noreply@anthropic.com> 1787240574 +0000	commit: Restructure into app/ package: routers, SQLAlchemy models, Alembic baseline
+1f1eb33c51ba3acb89a6dad7a59f62e85daf692e 994b41375b8698018682ae9eccc3eb458d7861bf Claude <noreply@anthropic.com> 1787240591 +0000	commit: Add implementation notes: path-resolution bugs found after moving files
+994b41375b8698018682ae9eccc3eb458d7861bf fc7f6a8a8f832bcf386920e958aa229b65777a5c Claude <noreply@anthropic.com> 1787240726 +0000	commit: Restructure into app/ package + add HTMX/Jinja2/Tailwind mini-app UI
+fc7f6a8a8f832bcf386920e958aa229b65777a5c 5e411fc9895e457b840ecf099844f96b749f116b Claude <noreply@anthropic.com> 1787240779 +0000	commit: Document the new HTMX mini-app UI and the datetime.now() extraction bugs
